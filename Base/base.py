@@ -17,7 +17,6 @@ class BasePage:
 
     def enter_site(self):
         e = self.driver.get(self.base_url)
-        assert "Mail.ru" in e.title
         return e
 
 # driver = webdriver.Chrome()
